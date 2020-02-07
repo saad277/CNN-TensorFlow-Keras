@@ -15,7 +15,7 @@ environ["TF_CPP_MIN_LOG_LEVEL"]="3"
 
 #Loading Model
 
-filepath=r"C:\Users\Saad-277\Desktop\NN\CNN - Mnist Data set\model_save.h5"
+filepath=r"C:\Users\Saad-277\Desktop\NN\CNN - Mnist Numbers Data set\model_save.h5"
 
 my_model=load_model(filepath,custom_objects=None,compile=True);
 
